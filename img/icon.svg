@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 21" width="42" height="21">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: none;stroke: #e9eae2;stroke-width: 3 } 
+	</style>
+	<g id="Header Section">
+		<g id="Menu">
+			<g id="menu default">
+				<path id="icon" class="shp0" d="M1 5L1 2L41 2L41 5L1 5ZM1 12L1 9L41 9L41 12L1 12ZM1 19L1 16L41 16L41 19L1 19Z" />
+			</g>
+		</g>
+	</g>
+</svg>

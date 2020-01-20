@@ -1,0 +1,125 @@
+@import 'section-1.scss';
+@import 'section-2.scss';
+@import 'section-3.scss';
+@import 'utils.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 10px;
+}
+body {
+  font-size: 1.6rem;
+}
+
+nav {
+  margin-top: 5rem;
+  height: 12rem;
+  width: 72.5rem;
+  background-color: rgba(248, 194, 85, 0);
+  position: absolute;
+  right: 11%;
+  z-index: 100;
+  display: flex;
+  ul {
+    opacity: 0;
+    padding: 4.5rem;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    li a {
+      font-size: 1.4rem;
+      line-height: 2.5rem;
+      color: #ffffff;
+      text-transform: uppercase;
+      font-family: Roboto-Regular;
+    }
+  }
+  div {
+    padding: 4.2rem;
+    border: 1px solid white;
+    position: absolute;
+    right: 0;
+    .icon {
+      width: 4rem;
+      height: 3rem;
+    }
+    .icon-2 {
+      opacity: 0;
+    }
+  }
+  &:hover {
+    background-color: rgba(248, 194, 85, 1);
+    ul {
+      opacity: 1;
+    }
+    div {
+      .icon-1 {
+        opacity: 0;
+      }
+      .icon-2 {
+        opacity: 1;
+      }
+
+    }
+  }
+}
+
+
+.logo {
+     
+  h3 {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    color: #393d3c;
+    font-family: Roboto-Regular;
+    width: 9rem;
+  }.icons {
+    color: rgb(123, 203, 193);
+    font-size: 2rem;
+    margin-top: 6rem;
+    padding: 0 1rem;
+  }
+}
+.icons {
+  padding-left: 18rem;
+  color: rgb(123, 203, 193);
+  font-size: 1.3rem;
+}
+.line {
+  position: absolute;
+  top: -3px;
+  left: -2px;
+  width: 101%;
+}
+
+
+
+
+
+
+@font-face {
+  font-family: Roboto-Italic;
+  src: url("../fonts/robotocondensed/RobotoCondensed-Italic.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Light;
+  src: url("../fonts/robotocondensed/RobotoCondensed-Light.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: url("../fonts/robotocondensed/RobotoCondensed-Regular.ttf");
+}
+@font-face {
+  font-family: Roboto-Bold;
+  src: url("../fonts/robotocondensed/RobotoCondensed-Bold.ttf");
+}
