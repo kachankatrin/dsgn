@@ -1,7 +1,9 @@
 .prj {
-  margin: 17% 15%;
+  padding: 17% 0 0 15%;
+  height: 100%;
+  position: relative;
   h2 {
-    max-width: 13rem;
+    // max-width: 13rem;
     height: 2.9rem;
     font-size: 2.4rem;
     line-height: 1.4rem;
@@ -19,33 +21,38 @@
       font-family: Roboto-Bold;
     }
   }
-  h3 {
-    margin: 13% 0 21% 0;
-    font-family: Roboto-Light;
-    max-width: 14.6rem;
-    height: 3.2rem;
-    font-size: 1.8rem;
-    line-height: 1.6rem;
-    color: #333333;
-    span {
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      font-size: 2.5rem;
-      color: #ebb240;
-
-    }
-  }
-  .heart {
-    margin-left: 17%;
-    .ti-heart {
-      font-size: 2.5rem;
-    }
-    h6 {
-      width: 4.8rem;
-      height: 2rem;
-      font-size: 1.1rem;
-      line-height: 1.2rem;
-      color: rgb(255, 0, 0);
+  
+  .view {
+    width: auto;
+    h3 {
+      position: absolute;
+      top: 50%;
       font-family: Roboto-Light;
+      height: 3.2rem;
+      font-size: 1.8rem;
+      line-height: 1.6rem;
+      color: #333333;
+      span {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 2.5rem;
+        color: #ebb240;
+      }
+    }
+    .heart {
+      position: absolute;
+      bottom: 10%;
+      left: 28%;
+      .ti-heart {
+        font-size: 2.5rem;
+      }
+      h6 {
+        width: auto;
+        height: 2rem;
+        font-size: 1.1rem;
+        line-height: 1.2rem;
+        color: rgb(255, 0, 0);
+        font-family: Roboto-Light;
+      }
     }
   }
 }
@@ -55,5 +62,7 @@
   font-family: Roboto-Regular;
   line-height: 1.4rem;
   color: rgb(254, 254, 254);
-  margin: 70% 45%;
+  position: absolute;
+  bottom: 36%;
+  left: 43%;
 }
